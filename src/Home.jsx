@@ -1,7 +1,13 @@
 import { Link } from 'react-router-dom'
 import './Home.css'
+import Button from './Button'
+import Card from './Card'
 function Home(){
     return(
+        <>
+        <Button text="Login"/>
+        <Button text="Logout"/>
+        <Button text="Register"/>
         <nav className="navbar">
         <div className="logo">MyLogo</div>
         <ul className="nav-links">
@@ -11,8 +17,10 @@ function Home(){
             <li><Link to="/contact">Contact</Link></li>
         </ul>
         </nav>
+
+        <Card title = "Football" desc="Football is a worldwide popular game"/>
+        </>
     )
 }
 
 export default Home
-

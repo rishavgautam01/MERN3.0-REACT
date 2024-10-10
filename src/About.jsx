@@ -1,6 +1,8 @@
+import Button from "./Button"
+
 function About(){
     return(
-        <h1>Hehe world</h1>
+        <Button text="About Page"/>
     )
 }
 export default About
