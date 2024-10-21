@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import './Home.css'
 import Button from './Button'
 import Card from './Card'
+import UseEffect from './UseEffect'
 function Home(){
     return(
         <>
@@ -18,7 +19,11 @@ function Home(){
         </ul>
         </nav>
 
-        <Card title = "Football" desc="Football is a worldwide popular game"/>
+        <Card title = "Football" desc="Football is a worldwide popular game" color='red'/>
+        <Card title = "Cricket" desc="Cricket is a worldwide popular game" color='blue'/>
+        <UseEffect></UseEffect>
+        
+
         </>
     )
 }

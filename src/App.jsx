@@ -7,7 +7,8 @@ import Home from './Home'
 import About from './About'
 import Contact from './Contact'
 import Test from './Test'
-
+import UseState from './UseState'
+import UseEffect from './UseEffect'
 function App() {
   return(
     <BrowserRouter>
@@ -16,6 +17,8 @@ function App() {
       <Route path='/about' element = {<About/>}/>
       <Route path = '/contact' element={<Contact/>}/>
       <Route path = '/test' element = {<Test/>}/>
+      <Route path = '/use-state' element={<UseState/>}/>
+      <Route path='/use-effect' element={<UseEffect/>}/>
     </Routes>
     </BrowserRouter>
   )
